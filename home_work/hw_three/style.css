@@ -1,26 +1,128 @@
+@import url("https://fonts.cdnfonts.com/css/gilroy-bold");
+
 * {
-  margin: 0;
   padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
 }
 
-.top {
-  padding-bottom: 96px;
+body {
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  background: #ffffff;
 }
 
-.header {
-  padding-top: 40px;
-  padding-bottom: 84px;
+img {
+  display: block;
+  max-width: 100%;
 }
 
-.top_content {
-  margin-top: 84px;
+.container {
+  width: 1172px;
+  margin: 0 auto;
+}
+
+/* --------------------------- */
+
+header {
+  margin-top: 45px;
+  margin-bottom: 74px;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation {
+  width: 533px;
+  display: flex;
+  justify-content: space-between;
+}
+.navigation_link {
+  font-family: "Gilroy-Medium";
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+}
+.navigation_link a:hover {
+  color: #f25822;
+}
+
+main {
+  margin-top: 69px;
   margin-bottom: 162px;
 }
 
-.title {
-  margin-bottom: 17px;
+.content__wrapper {
+  display: flex;
+  justify-content: space-between;
 }
 
-.top_buttons {
-  margin-top: 37px;
+.main-img {
+}
+
+.content__title {
+  font-family: "Gilroy-Bold";
+  font-size: 60px;
+  line-height: 70px;
+  color: #000000;
+  margin-bottom: 17px;
+  max-width: 522px;
+}
+
+.content__text {
+  font-family: "Gilroy-Medium", sans-serif;
+  font-size: 20px;
+  line-height: 23px;
+  color: #888888;
+  margin-bottom: 37px;
+  max-width: 466px;
+}
+
+.content__btns {
+  display: flex;
+  gap: 27px;
+}
+
+.content__btns__button {
+  width: 140px;
+  height: 50px;
+  border-radius: 50px;
+  font-family: "Gilroy-Bold";
+  font-size: 15px;
+  line-height: 18px;
+}
+.btn-start {
+  background: #f25822;
+  box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+  color: #ffffff;
+}
+
+.btn-play {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  color: #aaaaaa;
+  border: #ffffff;
+  background-color: #ffffff;
+}
+
+.btn-start:hover {
+  background: #cc3d09;
+}
+
+.btn-play:hover {
+  background: #c0bdbd;
+  color: #ffffff;
+}
+
+.logos {
+  display: flex;
+  width: 1200px;
+  justify-content: space-between;
+  padding-top: 97px;
+  padding-bottom: 96px;
 }

@@ -7,27 +7,33 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="top">
-      <div class="header">
+    <header>
+      <div class="header__wrapper container">
         <img src="img/header_logo.svg" alt="header_logo" />
-        <a class="header_link" href="#">Home</a>
-        <a class="header_link" href="#">About Us</a>
-        <a class="header_link" href="#">Services</a>
-        <a class="header_link" href="#">Features</a>
-        <a class="header_link" href="#">Team</a>
-        <a class="header_link" href="#">Blog</a>
-        <a class="header_link" href="#">Contact</a>
+        <nav class="navigation container">
+          <a class="navigation_link" href="#">Home</a>
+          <a class="navigation_link" href="#">About Us</a>
+          <a class="navigation_link" href="#">Services</a>
+          <a class="navigation_link" href="#">Features</a>
+          <a class="navigation_link" href="#">Team</a>
+          <a class="navigation_link" href="#">Blog</a>
+          <a class="navigation_link" href="#">Contact</a>
+        </nav>
       </div>
-      <div class="top_content">
-        <div class="top_info">
-          <h1 class="title">SEO & Digital Marketing For Your Website.</h1>
-          <p class="text">
+    </header>
+    <main>
+      <div class="content__wrapper container">
+        <div class="content-block">
+          <h1 class="content__title">
+            SEO & Digital Marketing For Your Website.
+          </h1>
+          <p class="content__text">
             Provide all kind of seo services and help to improve seo ranking.
-            Globally incubate standards./p>
+            Globally incubate standards.
           </p>
-          <div class="top_buttons">
-            <button class="button">Start Now</button>
-            <button class="button">
+          <div class="content__btns">
+            <button class="content__btns__button btn-start">Start Now</button>
+            <button class="content__btns__button btn-play">
               <svg
                 width="30"
                 height="30"
@@ -51,9 +57,11 @@
             </button>
           </div>
         </div>
-        <img src="img/top_Image.svg" alt="top_image" />
+        <img class="main-img" src="img/main_img.svg" alt="Main Image" />
       </div>
-      <div class="top_logos">
+    </main>
+    <footer>
+      <div class="logos container">
         <img src="img/liva_logo.svg" alt="liva_logo" />
         <img src="img/kanba_logo.svg" alt="kanba_logo" />
         <img src="img/amara_logo.svg" alt="amara_logo" />
@@ -61,6 +69,6 @@
         <img src="img/hexlab_logo.svg" alt="hexlab_logo" />
         <img src="img/kanba_logo.svg" alt="kanba_logo" />
       </div>
-    </div>
+    </footer>
   </body>
 </html>
