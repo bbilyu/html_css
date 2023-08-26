@@ -1,0 +1,279 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  background: #ffffff;
+  overflow-x: hidden;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.container_top {
+  width: 1600px;
+  margin: 0 auto;
+}
+
+.container_bottom {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.header_background {
+  background-color: #222222;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header_navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1129px;
+}
+
+.header_buttons button {
+  background-color: #222222;
+  border: none;
+}
+.header_buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.right_side {
+  width: 158.996px;
+  height: 29px;
+}
+.left_side {
+  width: 111px;
+  height: 38px;
+}
+
+.background {
+  display: flex;
+  height: 764px;
+  background-color: #f1e4e6;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 405px;
+  margin-top: 290px;
+  margin-bottom: 381px;
+  margin-right: 331px;
+}
+.item h1 {
+  color: #222;
+  font-family: Lato;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.title_second_row_black {
+  color: #222;
+  font-family: Lato;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.title_second_row_pink {
+  color: #f16d7f;
+  font-family: Lato;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.offer {
+  display: grid;
+  height: 470px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 30px;
+  margin-top: 65px;
+}
+.four {
+  grid-column: 1/4;
+}
+
+.card {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #211616;
+  opacity: 0.7;
+}
+
+.card_text {
+  position: absolute;
+}
+
+.card_tex_white {
+  color: #fff;
+  text-align: center;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.card_tex_pink {
+  color: #f16d7f;
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.products {
+  margin-top: 96px;
+  margin-bottom: 60px;
+}
+
+.products_header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.products_header h2 {
+  color: #222;
+  font-family: Lato;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.products_header p {
+  color: #9f9f9f;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.products_main {
+  display: grid;
+  height: 1192px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 30px;
+  margin-top: 47px;
+}
+
+.products_card img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.products_card h3 {
+  color: #000;
+  font-family: Lato;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 12.65px;
+}
+
+.products_main p {
+  color: #5d5d5d;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-bottom: 18px;
+}
+
+.products_card h4 {
+  color: #f16d7f;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+
+.card_two {
+  position: relative;
+}
+.pink_container {
+  position: absolute;
+  width: 360px;
+  height: 420px;
+  background-color: #f7e4e2;
+}
+
+.girl {
+  position: absolute;
+  margin-top: 9px;
+  margin-bottom: 11px;
+  margin-left: 108px;
+  margin-right: 110px;
+}
+
+.card_two h3 {
+  position: relative;
+  margin-top: 445px;
+}
+
+.products_footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 48px;
+}
+
+.products__btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.products__btns h3 {
+  position: absolute;
+  color: #f26376;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
